@@ -38,9 +38,3 @@ public class Problem06 {
 	}
 
 }
-
-class TreeNode {
-	int value;
-	TreeNode left;
-	TreeNode right;
-}

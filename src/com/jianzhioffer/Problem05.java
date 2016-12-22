@@ -48,8 +48,3 @@ public class Problem05 {
 	}
 
 }
-
-class ListNode {
-	int data;
-	ListNode next;
-}
