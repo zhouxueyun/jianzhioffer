@@ -24,6 +24,12 @@ public class Problem33 {
 		System.out.println();
 	}
 
+	/**
+	 * 快排思想，每次将适合放在base前面替换到base前面，将适合放在base后面的放在base后面，base作为一个分割点
+	 * @param array
+	 * @param start
+	 * @param end
+	 */
 	private void printMinNumber(int[] array, int start, int end) {
 		if (start < end) {
 			int baseNumber = array[end];

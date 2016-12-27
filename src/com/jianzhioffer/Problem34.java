@@ -14,6 +14,11 @@ public class Problem34 {
 		System.out.println(test.getUglyNumber(50));
 	}
 
+	/**
+	 * 利用已有的丑数计算下一个丑数
+	 * @param n
+	 * @return
+	 */
 	public int getUglyNumber(int n) {
 		if (n <= 0)
 			return 0;

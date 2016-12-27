@@ -19,10 +19,18 @@ public class Problem36 {
 	public int inversePairs(int[] array) {
 		if (array == null)
 			return 0;
-		int[] copy = array.clone();
+		int[] copy = array.clone(); 
 		return mergeSort(array, copy, 0, array.length - 1);
 	}
 
+	/**
+	 * 
+	 * @param array
+	 * @param copy
+	 * @param start
+	 * @param end
+	 * @return
+	 */
 	private int mergeSort(int[] array, int[] copy, int start, int end) {
 		if (start == end) {
 			copy[start] = array[start];
